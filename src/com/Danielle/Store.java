@@ -9,7 +9,14 @@ package com.Danielle;
      Add a print statement inside our Store constructor with the message:
      I am inside the constructor method.
 
-    We’ll see this message whenever we create an instance of Store by calling the constructor.
+  4. Inside main(), print lemonadeStand to see how Java represents this instance.
+
+    Review the order of the printed messages:
+
+    Running the program invokes main()
+    We create an instance so we move from main() to Store()
+    The code inside Store() runs
+    When Store() finishes execution, we return to main()
  */
 
 public class Store {
